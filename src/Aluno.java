@@ -32,4 +32,13 @@ public class Aluno {
     public void setEndereco(String turma) {
         this.endereco = turma;
     }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "nome='" + nome + '\'' +
+                ", matricula='" + matricula + '\'' +
+                ", endereco='" + endereco + '\'' +
+                '}';
+    }
 }
